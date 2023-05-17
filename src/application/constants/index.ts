@@ -1,0 +1,5 @@
+export const TwitterLink = 'https://twitter.com/arbfurbo?s=21'
+export const TelegramLink = 'https://t.me/arbfurbo'
+export const LinktreeLink = 'https://linktr.ee/furbodapps'
+export const BuyFarbLink = 'https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0xFC1e18fD211314900cb506993B9b14Ec72e3F574&chainId=42161'
+export const EmailLink = 'contact@arbfurbo.wtf'

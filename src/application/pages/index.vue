@@ -7,7 +7,7 @@
 		<Features id="features" />
 		<About id="about" />
 		<Socials id="socials" />
-		<HowToBuy />
+		<HowToBuy id="#tatonomics" />
 		<RoadMap />
 		<Footer id="footer" />
 	</div>

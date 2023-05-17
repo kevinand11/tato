@@ -4,7 +4,7 @@
 		<div class="gap-6 items-center md:flex hidden">
 			<LinkTag to="/">Home</LinkTag>
 			<LinkTag to="/#about">About</LinkTag>
-			<LinkTag to="/#socials">Socials</LinkTag>
+			<LinkTag to="/#tatonomics">Tatonomics</LinkTag>
 		</div>
 		<a target="_blank" class="hidden lg:inline-block">
 			<button>Get $TATO</button>
@@ -20,7 +20,7 @@
 				</a>
 				<LinkTag to="/" @clicked="openMenu = false">Home</LinkTag>
 				<LinkTag to="/#about" @clicked="openMenu = false">About</LinkTag>
-				<LinkTag to="/#socials" @clicked="openMenu = false">Socials</LinkTag>
+				<LinkTag to="/#tatonomics" @clicked="openMenu = false">Tatonomics</LinkTag>
 
 				<button>Get $TATO</button>
 			</div>

@@ -4,8 +4,12 @@
 			<div class="flex-1 flex-col flex gap-4 items-start">
 				<h2 class="text-4xl font-bold text-primary-light">Follow us on Social!</h2>
 				<span class="text-lg mb-4">Make sure to avoid those bio-engineered fake $TATO scams and verify the announcement came from our official account!</span>
-				<button class="bg-primary-light text-primary">Follow $TATO on Twitter</button>
-				<button class="bg-primary-light text-primary">Follow $TATO on Telegram</button>
+				<a :href="TwitterLink" target="_blank">
+					<button class="bg-primary-light text-primary">Follow $TATO on Twitter</button>
+				</a>
+				<a :href="TelegramLink" target="_blank">
+					<button class="bg-primary-light text-primary">Follow $TATO on Telegram</button>
+				</a>
 			</div>
 			<div class="flex-1">
 				<img src="@/assets/images/cta.png" class="w-full" alt="">
@@ -13,3 +17,7 @@
 		</div>
 	</div>
 </template>
+
+<script lang="ts" setup>
+import { TelegramLink, TwitterLink } from '../constants'
+</script>

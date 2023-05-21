@@ -17,8 +17,8 @@
 
 <script lang="ts" setup>
 const steps = [
-	{ title: "Create Wallet", text: "Download Phantom, Solflare, or another wallet of your choice from the app store or their official website. Make sure to confirm it's the real one to avoid scams!" },
-	{ title: "Get Some Sol", text: "Now you need some Solana! You can buy Solana in most wallets or purchase it on another exchange and send it to your new wallet before getting $TATO!" },
-	{ title: "Swap SOL To TATO", text: "Connect to one of the dApps that supports $TATO markets like Birdeye and Jupiter. You can then swap your Solana to $TATO. You may need to adjust slippage!" },
+	{ title: "Create Wallet", text: "Create a BSC wallet, you can use trust wallet, Metamask, Safepal and many more but avoid using a CEX wallet" },
+	{ title: "Get Some ARB ETH", text: "Credit your wallet with some ARB ETH as that’s what you’ll be using to purchase $TATO" },
+	{ title: "Swap ARB ETH To TATO", text: "When presale is live on pinksale you would just need to connect your wallet to the presale and buy with your ARB ETH" },
 ]
 </script>

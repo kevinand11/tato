@@ -43,7 +43,7 @@ const mainDetails = [
 const subDetails = [
 	{ title: '1 Billion', sub: 'Total tokens forever!' },
 	{ title: '250 Million', sub: '94% For Liquidity Pools!' },
-	{ title: '500 Million', sub: '6% For Exchanges & Bridges' },
+	{ title: '500 Million', sub: '50% burnt' },
 	{ title: 'Zero Team Tokens', sub: 'For vesting or shit heads!' },
 ]
 </script>

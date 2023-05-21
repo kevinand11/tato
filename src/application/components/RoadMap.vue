@@ -49,24 +49,6 @@ const map = [
 			'Grow the $TATO Gang to 1000+ members',
 			'Let\'s get $TATO Trending on Twitter and other social networks!',
 		]
-	},
-	{
-		title: 'Stealth Launch And Meme',
-		steps: [
-			'$TATO Token Launch And Liquidity Deposit',
-			'CoinGecko & CoinMarketCap Listings',
-			'Grow the $TATO Gang to 1000+ members',
-			'Let\'s get $TATO Trending on Twitter and other social networks!',
-		]
-	},
-	{
-		title: 'Stealth Launch And Meme',
-		steps: [
-			'$TATO Token Launch And Liquidity Deposit',
-			'CoinGecko & CoinMarketCap Listings',
-			'Grow the $TATO Gang to 1000+ members',
-			'Let\'s get $TATO Trending on Twitter and other social networks!',
-		]
 	}
 ]
 </script>

@@ -1,15 +1,15 @@
 <template>
-	<div class="px-6 py-12 md:px-8 md:py-24 lg:px-20 lg:py-32 bg-secondary-30 flex flex-col gap-12 md:gap-16">
+	<div class="px-6 py-12 md:px-8 md:py-24 lg:px-20 lg:py-32 bg-secondary-30 flex flex-col gap-12 md:gap-16 text-center">
 		<div class="flex flex-col md:flex-row items-center gap-4 md:gap-8">
-			<h2 class="text-2xl md:text-4xl font-bold flex-[1]">When life gives you potatoes, make <span class="highlight">$TATO</span></h2>
-			<span class="text-lg font-bold flex-[2]">
+			<h2 class="text-2xl md:text-4xl font-bold flex-1">When life gives you potatoes, make <span class="highlight">$TATO</span></h2>
+			<span class="text-lg font-bold flex-1">
 				<span class="highlight">$TATO</span> is for the people, for the memes, for the toast, and the chips.
 				It's the age of potatoes and the freshest memecoin.
 			</span>
 		</div>
 		<div class="flex flex-col md:flex-row items-center gap-8">
 			<div class="flex-[1.5] grid grid-cols-2 gap-6">
-				<div v-for="details in mainDetails" :key="details.title" class="flex flex-col gap-4">
+				<div v-for="details in mainDetails" :key="details.title" class="flex flex-col gap-4 items-center text-center">
 					<h4 class="flex items-center gap-4 text-lg font-bold">
 						<img src="@/assets/images/about-tea.svg" class="w-[2rem]" alt="">
 						<span>{{ details.title }}</span>

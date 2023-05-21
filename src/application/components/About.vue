@@ -17,19 +17,13 @@
 					<span v-html="details.sub" />
 				</div>
 			</div>
-			<div class="flex-1 flex justify-center">
-				<img src="@/assets/images/about-coin.svg" class="w-[75%]" alt="">
-			</div>
 		</div>
-		<div class="flex flex-col md:flex-row items-center gap-8">
-			<div class="flex-1 w-[75%] md:w-full">
-				<img src="@/assets/images/about-pie.svg" class="w-full" alt="">
-			</div>
+		<div class="flex flex-col md:flex-row items-center gap-8 text-center">
 			<div class="flex-[2] flex-col flex gap-6">
 				<h2 class="font-bold text-4xl">It’s time to vibe with the <span class="highlight">TATOCOINS</span></h2>
 				<p>Your dollar may be getting destroyed by inflation but <span class="highlight">$TATO</span> will stay sweet and steady with no taxes or bullshit.</p>
 				<div class="flex-1 grid grid-cols-2 gap-6">
-				<div v-for="details in subDetails" :key="details.title" class="flex flex-col gap-2">
+				<div v-for="details in subDetails" :key="details.title" class="flex flex-col gap-2 items-center">
 					<h4 class="flex items-center gap-4 text-2xl highlight font-bold">
 						{{ details.title }}
 					</h4>
@@ -43,15 +37,13 @@
 
 <script lang="ts" setup>
 const mainDetails = [
-	{ title: 'On Solana', sub: 'For cheaper fees and faster transactions.' },
-	{ title: 'No Presale', sub: '<span class="highlight">$TATO</span> is an equal opportunity memecoin.' },
-	{ title: 'Max Liquidity', sub: '94 percent of <span class="highlight">$TATO</span> is spread on that LP toast.' },
-	{ title: 'Zero Taxes', sub: 'Everyone hates taxes, why would <span class="highlight">$TATO</span> be different?' },
+	{ title: 'On Arbitrum', sub: 'For cheaper fees and faster transactions.' },
+	{ title: 'Presale', sub: '<span class="highlight">$TATO</span> coin would always reward early investors.' },
 ]
 const subDetails = [
-	{ title: '99 Trillion', sub: 'Total tokens forever!' },
-	{ title: '93.06 Trillion', sub: '94% For Liquidity Pools!' },
-	{ title: '5.94 Trillion', sub: '6% For Exchanges & Bridges' },
-	{ title: 'Zero Tokens', sub: 'For vesting or shit heads!' },
+	{ title: '1 Billion', sub: 'Total tokens forever!' },
+	{ title: '250 Million', sub: '94% For Liquidity Pools!' },
+	{ title: '500 Million', sub: '6% For Exchanges & Bridges' },
+	{ title: 'Zero Team Tokens', sub: 'For vesting or shit heads!' },
 ]
 </script>

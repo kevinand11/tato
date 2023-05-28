@@ -16,7 +16,7 @@
 
 const features = [
 	{ sub: '5% tax on all transactions' },
-	{ sub: '3% auto liquidity' },
-	{ sub: '2% for marketing' },
+	{ sub: '2% auto liquidity' },
+	{ sub: '1% for marketing' },
 ]
 </script>
